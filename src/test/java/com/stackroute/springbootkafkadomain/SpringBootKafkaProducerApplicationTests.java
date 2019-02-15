@@ -1,4 +1,4 @@
-package com.stackroute.springbootkafkaproducer;
+package com.stackroute.springbootkafkadomain;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

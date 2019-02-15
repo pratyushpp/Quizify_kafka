@@ -1,6 +1,6 @@
-package com.stackroute.springbootkafkaproducer.config;
+package com.stackroute.springbootkafkadomain.config;
 
-import com.stackroute.springbootkafkaproducer.domain.User;
+import com.stackroute.springbootkafkadomain.domain.User;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.context.annotation.Bean;
@@ -28,6 +28,7 @@ public class KafkaConfiguration {
     }
     @Bean
     public KafkaTemplate< String, User> kafkaTemplate()
+
     {
         return  new KafkaTemplate<>(producerFactory());
     }

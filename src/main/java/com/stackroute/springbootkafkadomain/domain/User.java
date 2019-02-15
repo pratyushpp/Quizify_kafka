@@ -1,4 +1,4 @@
-package com.stackroute.springbootkafkaproducer.domain;
+package com.stackroute.springbootkafkadomain.domain;
 
 public class User {
     private  String name;
